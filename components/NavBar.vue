@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-full flex justify-between items-center fixed bg-white p-5 text-black z-50"
+    class="w-full flex justify-between items-center fixed bg-[#DDD0C8] p-5 text-[#323232] z-50 border-b-0 border-[#323232] drop-shadow-lg"
   >
     <!-- Logo Section -->
     <a href="/" class="text-3xl">

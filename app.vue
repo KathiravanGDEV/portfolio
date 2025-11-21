@@ -1,20 +1,25 @@
 <template>
-  <div
-    class="bg-black bg-gradient-to-br from-black to-gray-700 via-black scroll-smooth text-white"
-  >
-    <nav class="z-10 pb-16">
+  <div class="bg-[#DDD0C8] scroll-smooth text-[#323232]">
+    <!-- bg-gradient-to-br from-black to-gray-700 via-black -->
+    <nav class="z-10 pb-20">
       <NavBar />
     </nav>
 
     <header
-      class="text-center py-10 w-full h-96 flex flex-col justify-center bg-white bg-gradient-to-br from-white to-black via-gray-800"
+      class="text-center py-10 w-full h-96 flex flex-col justify-center bg-[#DDD0C8]"
     >
+      <!-- bg-gradient-to-br from-white to-black via-gray-800 -->
       <h1 class="text-5xl md:text-7xl font-bold animate-fade-in">
         👋 I'm Kathiravan G Dev
       </h1>
       <p class="mt-4 text-lg md:text-xl animate-fade-in-delay">
         Welcome to my personal portfolio website!...
       </p>
+      <img
+        src="./assets/profile.jpg"
+        alt="profile"
+        class="mt-4 w-56 h-56 rounded-full mx-auto object-cover animate-fade-in-delay"
+      />
     </header>
 
     <main class="px-5 sm:px-10">
@@ -24,8 +29,8 @@
       <Contact />
     </main>
 
-    <footer class="w-full text-center py-5 bg-gray-800">
-      <a href="/" class="text-white hover:underline">Made By Kathiravan G...</a>
+    <footer class="w-full text-center py-5 bg-[#DDD0C8]">
+      <a href="/" class="text-black hover:underline">Made By Kathiravan G...</a>
     </footer>
   </div>
 </template>
